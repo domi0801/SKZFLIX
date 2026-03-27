@@ -1,0 +1,47 @@
+body{
+margin:0;
+font-family:georgia;
+background:black;
+color:white;
+}
+
+/* PANTALLA INICIAL */
+
+.pantalla-inicio{
+height:100vh;
+background-image:url("imagenfondo.png");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.pantalla-inicio h1{
+font-size:60px;
+background:rgba(0,0,0,0.6);
+padding:20px;
+border-radius:10px;
+}
+
+/* PAGINA NETFLIX */
+
+.titulo{
+margin: 100px;
+}
+
+.fila{
+display:flex;
+gap:20px;
+padding:30px;
+}
+
+.fila img{
+width:250px;
+border-radius:6px;
+transition:transform 0.3s;
+}
+
+.fila img:hover{
+transform:scale(1.1);
+}
